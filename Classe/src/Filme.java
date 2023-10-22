@@ -2,12 +2,12 @@
 public class Filme {
     double duração;
     String nome;
-    double lançamento;
+    int lançamento;
 
     public Filme() {
     }
 
-    public void Filme(double duração, String nome, double lançamento) {
+    public void Filme(double duração, String nome, int lançamento) {
         this.duração = duração;
         this.nome = nome;
         this.lançamento = lançamento;
