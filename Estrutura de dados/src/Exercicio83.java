@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
+// Objetivo
+// Faça um algoritmo para ler 20 números e armazenar em um vetor. Após a leitura total dos 20
+//números, o algoritmo deve escrever esses 20 números lidos na ordem inversa.
 public class Exercicio83 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

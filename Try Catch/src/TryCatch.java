@@ -6,7 +6,7 @@ public class TryCatch {
             vetor[4] = 1;
 
         } catch (ArrayIndexOutOfBoundsException exception){
-            System.out.println("Escessão ao acessar um indice do vetor que não existe");
+            System.out.println("Exceção ao acessar um indice do vetor que não existe");
         }
     }
 }
