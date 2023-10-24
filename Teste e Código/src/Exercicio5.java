@@ -5,10 +5,10 @@ public class Exercicio5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite um valor: ");
-        int Numero = scanner.nextInt();
+        int numero = scanner.nextInt();
 
-        int antecessor = Numero - 1;
-        System.out.println("O antecessor de " + Numero+" é " + antecessor);
+        int antecessor = numero - 1;
+        System.out.println("O antecessor de " + numero+" é " + antecessor);
 
     }
 }

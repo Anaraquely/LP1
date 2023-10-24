@@ -6,7 +6,10 @@ public class Exercicio1 {
         int a = 10;
         int b = 20;
         int c = 0;
-        System.out.println("O valor de a é de: " + b + " e o valor de b é de: " + a);
+        c = a;
+        a = b;
+        b = c;
+        System.out.println("O valor de a é de: " + a + " e o valor de b é de: " + b);
     }
 }
 
